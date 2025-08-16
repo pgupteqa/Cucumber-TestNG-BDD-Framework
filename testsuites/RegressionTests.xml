@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation POC suite" parallel="methods" thread-count="8"
+	verbose="1">
+
+	<test name="Regression Tests">
+		<parameter name="browsername" value="${browsername}"></parameter>
+		<parameter name="isLambdaTest" value="${isLambdaTest}"></parameter>
+		<parameter name="isHeadLess" value="${isHeadLess}"></parameter>
+		<parameter name="envname" value="${envname}"></parameter>
+
+		<classes>
+			<class name="org.automationcart.tests.LoginTest" />
+			<class name="org.automationcart.tests.EndToEndProductCheckoutTest" />
+			<class name="org.automationcart.tests.InvalidLoginTest" />
+			<class name="org.automationcart.tests.SearchProductTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation CucumberTestNG POC suite" parallel="classes" thread-count="8"
+       verbose="1">
+    <test name="Cucumber UI automation">
+        <classes>
+            <class name="org.automationcart.cucumberRunner.TestNGTestRunner" />
+        </classes>
+    </test>
+</suite>
