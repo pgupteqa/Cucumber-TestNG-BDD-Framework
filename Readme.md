@@ -13,7 +13,7 @@ The framework supports:
 
 ## About Me
 
-- Hi, my name is Pratik Gupte and I have 8 years of experience working as a QA Engineer, including 2 years in Automation Testing using tools like Selenium Webdriver,RobotFramework, Copado Robotic Testing, RestAssured.
+- Hi, my name is Pratik Gupte, and I have 8 years of experience working as a QA Engineer, including 2 years in Automation Testing using tools like Selenium Webdriver, Salesforce Automation using RobotFramework and Copado Robotic Testing, API Testing using Postman and RestAssured.
 
 
 ## 🔗 Links
