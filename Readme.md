@@ -63,8 +63,8 @@ Before running this framework, ensure the following software is installed on you
 **Clone the Repository**
 
 ```bash
-  git clone https://github.com/pgupteqa/Selenium-Java-TestNG-UI-Automation-Framework-POC.git
-  cd Selenium-Java-TestNG-UI-Automation-Framework-POC
+  git clone https://github.com/pgupteqa/Cucumber-TestNG-BDD-Framework.git
+  cd Cucumber-TestNG-BDD-Framework
 
 ```
 **Running Tests on Local Machine**
