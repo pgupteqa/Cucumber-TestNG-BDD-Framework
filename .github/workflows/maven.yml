@@ -48,7 +48,7 @@ jobs:
       with:
         name: html-report
         path: |
-          extent-report.html
+          cucumberbddreport.html
           report.html
        
     - name: Test Execution Status
@@ -61,8 +61,8 @@ jobs:
       run: |
         mkdir -p public/extent-reports
         # Copy extent report if it exists
-        if [ -f extent-report.html ]; then
-          cp extent-report.html public/extent-reports/
+        if [ -f cucumberbddreport.html ]; then
+          cp cucumberbddreport.html public/extent-reports/
         fi
         # Copy cucumber report if it exists
         if [ -f report.html ]; then
