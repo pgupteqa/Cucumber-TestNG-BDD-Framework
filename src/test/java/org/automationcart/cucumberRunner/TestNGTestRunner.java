@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 
 @CucumberOptions(features = "src/test/resources/features",
-        glue = {"org.automationcart.stepdefinations", "org.automationcart.hooks"},
+        glue = {"org.automationcart.stepdefinations", "org.automationcart.cucumberHooks"},
         monochrome = true,
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "rerun:target/failed_scenarios.txt"}) //<--Also Captured Failed scenarios

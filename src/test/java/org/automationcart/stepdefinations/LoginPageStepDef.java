@@ -3,7 +3,7 @@ package org.automationcart.stepdefinations;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.automationcart.hooks.Hooks;
+import org.automationcart.cucumberHooks.Hooks;
 import org.automationcart.pages.HomePage;
 import org.automationcart.pages.LoginPage;
 import org.automationcart.pages.MyAccountPage;

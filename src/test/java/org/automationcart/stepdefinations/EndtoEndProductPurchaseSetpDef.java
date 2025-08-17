@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.automationcart.constants.Size;
-import org.automationcart.hooks.Hooks;
+import org.automationcart.cucumberHooks.Hooks;
 import org.automationcart.pages.*;
 import org.testng.Assert;
 
